@@ -195,7 +195,7 @@ footer {
     font-size: 15px;
 }
 
-/* REACTIVITY */
+/* RESPONSIVITY */
 
 @media (min-width: 0px) and (max-width: 1000px) {
     .project-card {
