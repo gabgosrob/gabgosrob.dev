@@ -32,6 +32,8 @@ li a:hover {
 
 navbar ul {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
     gap: 40px;
     padding: 0;
     list-style-type: none;
@@ -40,6 +42,7 @@ navbar ul {
 
 .push {
     flex: 1;
+    min-width: 140px;
 }
 
 .push span {
@@ -76,9 +79,10 @@ h2 {
 
 .intro {
     display: flex;
+    flex-wrap: wrap;
     gap: 50px;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     margin: 60px 0;
 }
 
@@ -87,6 +91,11 @@ h2 {
     height: auto;
     border-radius: 50%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
+}
+
+.intro div {
+    max-width: 700px;
+    text-align: center;
 }
 
 /* PROJECTS */
@@ -116,7 +125,7 @@ h2 {
     transition: 0.5s;
 }
 
-.project-card img {
+.project-card > img {
     height: 240px;
     width: auto;
     border-radius: 5%;
@@ -184,4 +193,20 @@ footer {
     text-align: center;
     margin: 50px 0 30px;
     font-size: 15px;
+}
+
+/* REACTIVITY */
+
+@media (min-width: 0px) and (max-width: 1000px) {
+    .project-card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project-card > img {
+        margin-top: -75px;
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
 }
