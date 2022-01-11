@@ -112,6 +112,7 @@ h2 {
 }
 
 .project-card h3 {
+    font-size: 30px;
     margin: 0;
 }
 
@@ -132,7 +133,8 @@ h2 {
 }
 
 .project-info a:hover {
-
+    background-color: rgba(90, 190, 255, 0.1);
+    padding: 10px;
     transition: 0.5s;
 }
 
