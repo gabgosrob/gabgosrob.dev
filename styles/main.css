@@ -5,9 +5,10 @@ html {
 body {
     margin-left: 20px;
     margin-right: 20px;
-    background-color: rgb(245, 254, 255);
+    background-color: rgb(238, 253, 255);
     font-family: 'Raleway', sans-serif;
     font-size: 24px;
+    transition: 0.5s;
 }
 
 a {
@@ -43,6 +44,16 @@ navbar ul {
 
 .push span {
     color: rgb(61, 190, 61);
+}
+
+#light-switch {
+    float: right;
+    width: 30px;
+    height: auto;
+}
+
+#light-switch:hover {
+    cursor: pointer;
 }
 
 /* MAIN */
@@ -134,7 +145,7 @@ h2 {
 
 .project-info a:hover {
     background-color: rgba(90, 190, 255, 0.1);
-    padding: 10px;
+    font-size: 15px;
     transition: 0.5s;
 }
 

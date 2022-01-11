@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="styles/main.css">
+    <script src="src/js/main.js" defer></script>
 </head>
 <body>
     <div class="container">
@@ -18,12 +19,14 @@
                 <li><a href="#contacts">Contact</a></li>
             </ul>
         </navbar>
+        <img src="images/on.png" alt="light switch on" id="light-switch"/>
         <main>
             <div class="intro">
                 <img src="images/face.jpeg" alt="picture of my face">
                 <div>
-                    <h1>Hi, my name is Gabriel!</h1>
-                    <p>I'm a 2nd year software engineering student at Laval University.</p>
+                    <h1 id="hi">Hi, my name is Gabriel!</h1>
+                    <p id="desc">I'm a 2nd year software engineering student 
+                        at Laval University.</p>
                 </div>
                 
             </div>
@@ -55,7 +58,7 @@
                     <img src="images/discord.png" alt="picture of a discord account">
                     <div class="project-info">
                         <h3>Discord Meme Bot</h3>
-                        <p>I made this bot to easily view the top fresh
+                        <p>Discord bot to easily view the top fresh
                             memes from various meme subreddits by listening 
                             to specific commands from the server users, and 
                             then, when asked to, pulling a meme from Reddit's 

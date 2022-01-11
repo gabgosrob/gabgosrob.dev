@@ -1,0 +1,12 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "outDir": "src/js/",
+        "target": "ES3",
+        "lib": ["DOM", "ESNext"],
+        "watch": true,
+    },
+    "include": [
+        "src/ts/*"
+    ],
+}
