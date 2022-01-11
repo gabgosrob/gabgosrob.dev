@@ -139,15 +139,12 @@ h2 {
 .technologies {
     display: flex;
     margin: 16px 0;
-    gap: 15px;
+    gap: 20px;
 }
 
-.technologies span {
-    font-size: 12px;
-    border: 2px solid rgb(49, 238, 49);
-    background-color: rgba(0, 255, 0, 0.05);
-    border-radius: 5px;
-    padding: 4px;
+.technologies img {
+    height: 45px;
+    width: auto;
 }
 
 /* CONTACTS */
