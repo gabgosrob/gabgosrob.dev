@@ -20,7 +20,7 @@ a {
 
 li a:hover {
     text-decoration-color: rgba(0, 0, 0, 0.5);
-    text-underline-offset: 8px;
+    text-underline-offset: 10px;
 }
 
 .container {
