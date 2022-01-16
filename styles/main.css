@@ -5,7 +5,7 @@ html {
 body {
     margin-left: 20px;
     margin-right: 20px;
-    background-color: rgb(238, 253, 255);
+    background-color: white;
     font-family: 'Raleway', sans-serif;
     font-size: 24px;
     transition: 0.5s;
@@ -114,13 +114,14 @@ h2 {
     background-color: white;
     margin: 20px;
     padding: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
     transition: 0.5s
 }
 
 .project-card:hover {
-    margin: 40px 20px;
+    transform: scale(1.03);
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
     transition: 0.5s;
 }

@@ -27,6 +27,7 @@ function setDarkTheme() {
     body.style.color = "white";
     cards.forEach(function (card) {
         card.style.backgroundColor = "rgb(50, 50, 50)";
+        card.style.borderColor = "rgba(255, 255, 255, 0.2)";
         card.querySelector("a").style.backgroundColor = "rgb(35, 35, 35)";
     });
 }
@@ -36,10 +37,11 @@ function setLightTheme() {
     var body = document.querySelector("body");
     var cards = Array.from(document.querySelectorAll(".project-card"));
     lightSwitch.setAttribute("src", "images/on.png");
-    body.style.backgroundColor = "rgb(238, 253, 255)";
+    body.style.backgroundColor = "white";
     body.style.color = "black";
     cards.forEach(function (card) {
         card.style.backgroundColor = "white";
+        card.style.borderColor = "rgba(0,0,0,0.3)";
         card.querySelector("a").style.backgroundColor = "white";
     });
 }
