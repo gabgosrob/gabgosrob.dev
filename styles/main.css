@@ -66,7 +66,7 @@ main {
     flex-direction: column;
 }
 
-intro h1 {
+.intro h1 {
     font-size: 60px;
 }
 
