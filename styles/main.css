@@ -30,19 +30,26 @@ li a:hover {
 
 /* NAVBAR */
 
+navbar {
+    position: relative;
+    display: flex;
+    margin: 24px;
+}
+
 navbar ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
+    margin: 0;
     gap: 40px;
     padding: 0;
     list-style-type: none;
-    margin-bottom: 30px;
+    background-color: white;
+    transition: 0.5s;
 }
 
 .push {
     flex: 1;
-    min-width: 140px;
 }
 
 .push span {
@@ -59,6 +66,25 @@ navbar ul {
     cursor: pointer;
 }
 
+#hamburger {
+    position: absolute;
+    top: 0.25rem;
+    right: 0;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+#hamburger .bar {
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
 /* MAIN */
 
 main {
@@ -68,6 +94,10 @@ main {
 
 .intro h1 {
     font-size: 60px;
+}
+
+sup {
+    font-size: 50%;
 }
 
 h2 {
@@ -198,7 +228,27 @@ footer {
 
 /* RESPONSIVITY */
 
-@media (min-width: 0px) and (max-width: 1000px) {
+@media (max-width: 800px) {
+    #hamburger {
+        display: flex;
+    }
+
+    navbar ul {
+        position: absolute;
+        top: 3.5rem;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        width: 100%;
+        padding: 40px 0;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        transition: 0.5s;
+    }
+}
+
+@media (max-width: 1000px) {
     .project-card {
         display: flex;
         flex-direction: column;
