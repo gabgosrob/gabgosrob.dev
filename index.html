@@ -1,130 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>gabgosrob.dev</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="styles/main.css">
-    <script src="src/js/main.js" defer></script>
-</head>
-<body>
-    <div class="container">
-        <navbar>
-            <div class="push">
-                <a href="/"><span>> </span>gabgosrob</a>
-            </div>
-            <a href="#" id="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </a>
-            <ul id="links">
-                <li><a href="#projects">Projects</a></li>
-                <li>Resume</li>
-                <li><a href="#contacts">Contact</a></li>
-                <img src="images/on.png" alt="light switch on" id="light-switch"/>
-            </ul>
-        </navbar>
-        
-        <main>
-            <div class="intro">
-                <img src="images/face.jpeg" alt="picture of my face">
-                <div>
-                    <h1 id="hi">Hi, my name is Gabriel!</h1>
-                    <p id="desc">I'm a 2<sup>nd</sup> year software engineering student 
-                        at Laval University.</p>
+    <head>
+        <meta charset="UTF-8" />
+        <title>gabgosrob.dev</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="styles/main.css" />
+        <script src="src/js/main.js" defer></script>
+    </head>
+    <body>
+        <div class="container">
+            <navbar>
+                <div class="push">
+                    <a href="/"><span>> </span>gabgosrob</a>
                 </div>
-                
-            </div>
-            <h2>Here are some of my projects:</h2>
-            <div class="projects" id="projects">
-                <div class="project-card">
-                    <img src="images/ggrdev.png">
-                    <div class="project-info">
-                        <h3>gabgosrob.dev</h3>
-                        <p>This project is the website you are currently
-                            looking at! I created it to centralize my 
-                            social media links into a single platform and
-                            to have a way to show my projects to other people.
-                            It allowed me to put my newly acquired front 
-                            end development skills to use, while also 
-                            learning how to use TypeScript.
+                <a href="#" id="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </a>
+                <ul id="links">
+                    <li><a href="#projects">Projects</a></li>
+                    <li>
+                        <a href="./assets/cv_gabgosrob.pdf" download>Resume</a>
+                    </li>
+                    <li><a href="#contacts">Contact</a></li>
+                    <img
+                        src="images/on.png"
+                        alt="light switch on"
+                        id="light-switch"
+                    />
+                </ul>
+            </navbar>
+
+            <main>
+                <div class="intro">
+                    <img src="images/face.jpeg" alt="picture of my face" />
+                    <div>
+                        <h1 id="hi">Hi, my name is Gabriel!</h1>
+                        <p id="desc">
+                            I'm a 2<sup>nd</sup> year software engineering
+                            student at Laval University.
                         </p>
-                        <div class="technologies">
-                            <img src="images/html.png" alt="html logo">
-                            <img src="images/css.png" alt="css logo">
-                            <img src="images/ts.png" alt="typescript logo">
-                        </div>
-                        <a href="https://github.com/gabgosrob/gabgosrob.dev" target="_blank">
-                            View Source
-                        </a>
                     </div>
                 </div>
-                <div class="project-card">
-                    <img src="images/discord.png" alt="picture of a discord account">
-                    <div class="project-info">
-                        <h3>Discord Meme Bot</h3>
-                        <p>Discord bot to easily view the top fresh
-                            memes from various meme subreddits by listening 
-                            to specific commands from the server users, and 
-                            then, when asked to, pulling a meme from Reddit's 
-                            API and posting it, along with some information 
-                            about the post. This taught me how to use different
-                            API's (Discord/Reddit) and allowed me to practice
-                            asynchronicity in Python.
-                        </p>
-                        <div class="technologies">
-                            <img src="images/python.png" alt="python logo">
+                <h2>Here are some of my projects:</h2>
+                <div class="projects" id="projects">
+                    <div class="project-card">
+                        <img src="images/ggrdev.png" />
+                        <div class="project-info">
+                            <h3>gabgosrob.dev</h3>
+                            <p>
+                                This project is the website you are currently
+                                looking at! I created it to centralize my social
+                                media links into a single platform and to have a
+                                way to show my projects to other people. It
+                                allowed me to put my newly acquired front end
+                                development skills to use, while also learning
+                                how to use TypeScript.
+                            </p>
+                            <div class="technologies">
+                                <img src="images/html.png" alt="html logo" />
+                                <img src="images/css.png" alt="css logo" />
+                                <img
+                                    src="images/ts.png"
+                                    alt="typescript logo"
+                                />
+                            </div>
+                            <a
+                                href="https://github.com/gabgosrob/gabgosrob.dev"
+                                target="_blank"
+                            >
+                                View Source
+                            </a>
                         </div>
-                        <a href="https://github.com/gabgosrob/meme-bot" target="_blank">
-                            View Source
-                        </a>
+                    </div>
+                    <div class="project-card">
+                        <img
+                            src="images/discord.png"
+                            alt="picture of a discord account"
+                        />
+                        <div class="project-info">
+                            <h3>Discord Meme Bot</h3>
+                            <p>
+                                Discord bot to easily view the top fresh memes
+                                from various meme subreddits by listening to
+                                specific commands from the server users, and
+                                then, when asked to, pulling a meme from
+                                Reddit's API and posting it, along with some
+                                information about the post. This taught me how
+                                to use different API's (Discord/Reddit) and
+                                allowed me to practice asynchronicity in Python.
+                            </p>
+                            <div class="technologies">
+                                <img
+                                    src="images/python.png"
+                                    alt="python logo"
+                                />
+                            </div>
+                            <a
+                                href="https://github.com/gabgosrob/meme-bot"
+                                target="_blank"
+                            >
+                                View Source
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img
+                            src="images/jsanimations.png"
+                            alt="picture of the matrix character rain"
+                        />
+                        <div class="project-info">
+                            <h3>JavaScript Animations</h3>
+                            <p>
+                                A website containing multiple JavaScript
+                                animations using the HTML canvas, such as the
+                                Matrix green code rain effect and an interactive
+                                Conway's game of life. I made them while
+                                learning JavaScript, which allowed me to
+                                practice implementing basic logic and modifying
+                                the DOM.
+                            </p>
+                            <div class="technologies">
+                                <img src="images/html.png" alt="html logo" />
+                                <img src="images/css.png" alt="css logo" />
+                                <img
+                                    src="images/js.png"
+                                    alt="javascript logo"
+                                />
+                            </div>
+                            <a
+                                href="https://github.com/gabgosrob/js-canvas-animations"
+                                target="_blank"
+                            >
+                                View Source
+                            </a>
+                        </div>
                     </div>
                 </div>
-                <div class="project-card">
-                    <img src="images/jsanimations.png" alt="picture of the matrix character rain">
-                    <div class="project-info">
-                        <h3>JavaScript Animations</h3>
-                        <p>A website containing multiple JavaScript
-                            animations using the HTML canvas, such as the 
-                            Matrix green code rain effect and an interactive 
-                            Conway's game of life. I made them while learning 
-                            JavaScript, which allowed me to practice implementing 
-                            basic logic and modifying the DOM.
-                        </p>
-                        <div class="technologies">
-                            <img src="images/html.png" alt="html logo">
-                            <img src="images/css.png" alt="css logo">
-                            <img src="images/js.png" alt="javascript logo">
-                        </div>
-                        <a href="https://github.com/gabgosrob/js-canvas-animations" target="_blank">
-                            View Source
-                        </a>
-                    </div>
+            </main>
+            <div class="contacts" id="contacts">
+                <h2>Contact Me!</h2>
+                <div class="links">
+                    <a href="mailto:gabrielgosrob@gmail.com" target="_blank">
+                        <img src="images/mail.png" alt="mailbox icon" />
+                    </a>
+                    <a href="https://github.com/gabgosrob" target="_blank">
+                        <img src="images/github.png" alt="github logo" />
+                    </a>
+                    <a
+                        href="https://www.linkedin.com/in/gabgosrob/"
+                        target="_blank"
+                    >
+                        <img src="images/linkedin.png" alt="linkedin logo" />
+                    </a>
                 </div>
             </div>
-        </main>
-        <div class="contacts" id="contacts">
-            <h2>Contact Me!</h2>
-            <div class="links">
-                <a href="mailto:gabrielgosrob@gmail.com" target="_blank">
-                    <img src="images/mail.png" alt="mailbox icon"/>
-                </a>
-                <a href="https://github.com/gabgosrob" target="_blank">
-                    <img src="images/github.png" alt="github logo"/>
-                </a>
-                <a href="https://www.linkedin.com/in/gabgosrob/" target="_blank">
-                    <img src="images/linkedin.png" alt="linkedin logo"/>
-                </a>
-            </div>
+            <footer>
+                <a href="https://github.com/gabgosrob" target="_blank"
+                    >Made by Gabriel Gosselin Roberge © 2022</a
+                >
+            </footer>
         </div>
-        <footer>
-            <a href="https://github.com/gabgosrob" target="_blank">Made by Gabriel Gosselin Roberge © 2022</a>
-        </footer>
-    </div>
-</body>
+    </body>
 </html>
